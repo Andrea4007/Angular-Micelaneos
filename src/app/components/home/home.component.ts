@@ -3,8 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <p>
-      home works!
+  <app-clases></app-clases>
+  <app-css></app-css>
+  <app-ng-style></app-ng-style>
+  <app-ng-switch></app-ng-switch>
+    <p [appResaltado]="'red'">
+     Rutas y rutas hijas
     </p>
   `,
   styles: []
